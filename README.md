@@ -17,6 +17,8 @@ Rotate and a method named rotate, as shown below, but filling in the
 ... with your code for rotating the array A. Test your method by
 running this program, then add three more tests to the main method.
 
+     import java.util.Arrays;
+
      public class Rotate {
           public static void rotate(int[] A) {
                       ...
