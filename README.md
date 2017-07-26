@@ -22,11 +22,11 @@ running this program, then add three more tests to the main method.
                       ...
           }
 
-	  public static void main(String[] args) {
-	      int[] test = {7,4,12,53,32};
-	      int[] test_output = {32,7,4,12,53};
-	      Rotate.rotate(test);
+          public static void main(String[] args) {
+              int[] test = {7,4,12,53,32};
+              int[] test_output = {32,7,4,12,53};
+              Rotate.rotate(test);
               assert Arrays.equals(test, test_output);
-	  }
+          }
      }
 
