@@ -16,6 +16,8 @@ Create a java file named Rotate.java that includes a class named
 Rotate and a method named rotate, as shown below, but filling in the
 ... with your code for rotating the array A. Test your method by
 running this program, then add three more tests to the main method.
+Use the -ea flag when running java to enable exceptions triggered
+by the assert statements.
 
      import java.util.Arrays;
 
