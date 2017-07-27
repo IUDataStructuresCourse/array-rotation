@@ -44,6 +44,7 @@ then the method should change the array so that it contents are as follows
 Note that the right-most element, 32, wrapped-around to become the
 first element. Test your `rotate` method by changing the `main` method
 as follows and then run the program.
+
     ~~~~
     import java.util.Arrays;
 
