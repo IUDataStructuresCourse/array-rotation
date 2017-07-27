@@ -39,7 +39,7 @@ example, if the input array is the following array of integers
 {7,4,12,53,32}
 ~~~~
 
-then the method should change the array so that it contents are as follows
+then the method should change the array so that its contents are as follows
 
 ~~~~
 {32,7,4,12,53}
