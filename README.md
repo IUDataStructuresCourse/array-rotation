@@ -45,22 +45,22 @@ Note that the right-most element, 32, wrapped-around to become the
 first element. Test your `rotate` method by changing the `main` method
 as follows and then run the program.
 
-    ~~~~
-    import java.util.Arrays;
+~~~~
+import java.util.Arrays;
 
-    public class Rotate {
-         public static void rotate(int[] A) {
-                     ...
-         }
+public class Rotate {
+     public static void rotate(int[] A) {
+		 ...
+     }
 
-         public static void main(String[] args) {
-             int[] test = {7,4,12,53,32};
-             int[] test_output = {32,7,4,12,53};
-             Rotate.rotate(test);
-             assert Arrays.equals(test, test_output);
-         }
-    }
-    ~~~~
+     public static void main(String[] args) {
+	 int[] test = {7,4,12,53,32};
+	 int[] test_output = {32,7,4,12,53};
+	 Rotate.rotate(test);
+	 assert Arrays.equals(test, test_output);
+     }
+}
+~~~~
     
 Add three more tests with different arrays to the main method.  Use
 the -ea flag when running java to enable exceptions triggered by the
