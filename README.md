@@ -35,11 +35,15 @@
 rotates the elements of an array to the right by one position.  For
 example, if the input array is the following array of integers
 
-  {7,4,12,53,32}
+~~~~
+{7,4,12,53,32}
+~~~~
 
 then the method should change the array so that it contents are as follows
 
-  {32,7,4,12,53}
+~~~~
+{32,7,4,12,53}
+~~~~
 
 Note that the right-most element, 32, wrapped-around to become the
 first element. Test your `rotate` method by changing the `main` method
