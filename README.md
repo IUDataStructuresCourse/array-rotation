@@ -1,8 +1,26 @@
 # Pre-lecture Assignment: Array Rotation
 
+1. IntelliJ Project Setup 
 
+  * Create a new project using the 'check out from version control'
+    option, selecting GitHub and password access.
 
-3. Implement a method named `rotate` in the `Main` class in the file
+  *  Control-click on the array-rotation-<username> directory in the left pane
+     and select 'Mark Directory As' > 'Sources Root'.
+
+  * Configure the project structure by going to menu 
+    'File' > 'Project Structure'.
+    * Set the 'Project SDK' to '1.8'.
+    * Set the 'Project language level' to '8 - Lambdas, type annotations etc.'
+    * Set the 'Project compiler output' to a new folder inside the
+       array-rotation-<username> directory named 'out'.
+
+  * Create a 'configuration' for running the program by going to
+    the menu 'Run > Edit Configurations'. Name the configuration
+    something like 'Run Main'. Choose 'Main' as the 'Main class'.
+    In the VM options, enter '-ea'.
+
+2. Implement a method named `rotate` in the `Main` class in the file
 `Main.java`. The method should rotates the elements of an array to the
 right by one position.  For example, if the input array is the
 following array of integers
