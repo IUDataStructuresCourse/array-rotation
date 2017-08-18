@@ -44,3 +44,9 @@ first element. Add three more tests with different arrays to the
 `main` method.
 
 
+4. Submit your assignment by committing and pushing it to github.
+  Go to the menu 'VCS' > 'Git' > 'Commit Directory ...',
+  enter a commit message like 'Hurrah!' and push the 'Commit'
+  button, selecting 'Commit and Push' and then again 'Push'
+  on the next window.
+  
