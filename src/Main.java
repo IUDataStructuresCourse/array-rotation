@@ -10,7 +10,7 @@ public class Main {
         // Sanity check that -ea flag is enabled for 'assert'.
         try {
             assert false;
-            System.out.println("Problem! Enable 'assert' with flag -ea");
+            System.out.println("Problem! Enable 'assert' with VM options: -ea");
             java.lang.System.exit(-1);
         } catch (java.lang.AssertionError e) { }
 
