@@ -1,27 +1,31 @@
 # Pre-lecture Assignment: Array Rotation
 
-1. IntelliJ Project Setup 
+1. Java Installation
+
+   If your computer does not already have Java Version 8 installed,
+   you can download and install it from the following URL:
+   
+   https://java.com/en/download/
+
+2. IntelliJ Project Setup 
 
   * Create a new project using the 'check out from version control'
-    option, selecting GitHub and password access.
-
-  *  Control-click on the array-rotation-<username> directory in the left pane
-     and select 'Mark Directory As' > 'Sources Root'.
-
-  * Configure the project structure by going to menu 
-    'File' > 'Project Structure'.
-    * Set the 'Project SDK' to '1.8'.
-    * Set the 'Project language level' to '8 - Lambdas, type annotations etc.'
-    * Set the 'Project compiler output' to a new folder inside the
-       array-rotation-<username> directory named 'out'.
-
+    option, selecting GitHub and password access. Use the URL for
+	your repository for this assignment, somehting like:
+	https://github.com/IUDataStructuresCourse/array-rotation-<username>.git
+	
   * Create a 'configuration' for running the program by going to
-    the menu 'Run > Edit Configurations'. Name the configuration
-    something like 'Run Main'. Choose 'Main' as the 'Main class'.
-    In the VM options, enter '-ea'.
+    the menu 'Run > Edit Configurations'. 
+	Click on the '+' and choose 'Application'.
+	Name the configuration something like 'Run Main'. 
+	Choose 'Main' as the 'Main class'. In the VM options, enter '-ea'.
+	Verify that your IntelliJ setup is correct by clicking on
+	the run button (green rightward-pointing triangle in the toolbar).
+	You should see an exception in the console window pointing to
+	the assert on line 22.
 
-2. Implement a method named `rotate` in the `Main` class in the file
-`Main.java`. The method should rotates the elements of an array to the
+3. Implement a method named `rotate` in the `Main` class in the file
+`Main.java`. The method should rotate the elements of an array to the
 right by one position.  For example, if the input array is the
 following array of integers
 
@@ -36,30 +40,7 @@ then the method should change the array so that its contents are as follows
 ~~~~
 
 Note that the right-most element, 32, wrapped-around to become the
-first element. Test your `rotate` method by changing the `main` method
-as follows and then run the program.
-
-~~~~
-import java.util.Arrays;
-
-public class Main {
-     public static void rotate(int[] A) {
-         ...
-     }
-
-     public static void main(String[] args) {
-		 int[] A = {7,4,12,53,32};
-		 int[] A_shifted = {32,7,4,12,53};
-		 Rotate.rotate(A);
-		 assert Arrays.equals(A, A_shifted);
-     }
-}
-~~~~
-    
-Add three more tests with different arrays to the main method.  Use
-the -ea flag when running java to enable exceptions triggered by the
-assert statements.  In Eclipse, go to menu Run=>Run Configurations and
-click on the 'Arguments' tab. Enter '-ea' in the text field for 'VM
-arguments'.
+first element. Add three more tests with different arrays to the
+`main` method.
 
 
