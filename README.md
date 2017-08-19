@@ -12,7 +12,7 @@
     Create a new project using the 'check out from version control'
     option, selecting GitHub and password access. Use the URL for
     your repository for this assignment, something like:
-    https://github.com/IUDataStructuresCourse/array-rotation-<username>.git
+    https://github.com/IUDataStructuresCourse/array-rotation-[username].git
     Verify that the new project is configured properly by building the
     project and then running the test. It should fail with an AssertionFailedError.
 
